@@ -3,8 +3,6 @@ class Solution:
         maxp=0
         buy=prices[0]
         for price in prices:
-            if price<buy:
-                buy=price
-            else:
-                maxp=max(maxp,price-buy)
+            buy=min(buy,price)
+            maxp=max(maxp,price-buy)
         return maxp
