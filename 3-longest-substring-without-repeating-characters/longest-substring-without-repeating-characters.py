@@ -8,6 +8,5 @@ class Solution:
                 chars.remove(s[l])
                 l+=1
             chars.add(s[r])
-
             res=max(res,r-l+1)
         return res
