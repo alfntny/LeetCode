@@ -1,1 +1,1 @@
-<h2>largest-rectangle-in-histogram Notes</h2><hr>[ Time taken: 18hrs 40m 13s ]
+<h2>largest-rectangle-in-histogram Notes</h2><hr>[ Time taken: 1d 2hrs 31m 49s ]
